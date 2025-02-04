@@ -6,7 +6,17 @@
 - User registration & location-based alerts  
 - Admin dashboard for emergency broadcasts  
 - Weather monitoring (OpenWeather API)  
-- Responsive UI with Bootstrap 5  
+- Responsive UI with Bootstrap 5
+
+
+## Project Structure
+RiskRadar/
+├── app.py                 # Main application file
+├── requirements.txt       # Dependencies
+├── /templates             # HTML templates
+├── /static                # CSS and static files
+└── database.db            # SQLite database (created after first run)
+
 
 ## 🛠️ Setup  
 
