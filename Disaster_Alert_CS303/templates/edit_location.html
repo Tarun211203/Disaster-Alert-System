@@ -1,0 +1,22 @@
+<! -- This is to provide the edit location feature -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card p-4">
+            <h2 class="mb-4"><i class="fas fa-map-marker-alt me-2"></i>Update Location</h2>
+            <form method="POST">
+                <div class="mb-3">
+                    <label class="form-label">New Location</label>
+                    <input type="text" name="location" value="{{ user.location }}" 
+                           class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">
+                    <i class="fas fa-save me-2"></i>Save Changes
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
