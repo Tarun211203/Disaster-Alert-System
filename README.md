@@ -34,7 +34,7 @@ RiskRadar/
 
 #### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/Tarun211203/Disaster-Alert-System
+git clone https://github.com/Tarun211203/Disaster_Alert_CS303
 cd Disaster-Alert-System
 ```
 
